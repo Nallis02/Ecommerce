@@ -104,6 +104,9 @@ button {
     width: 128px;
     height: 40px;
 }
+.corazon:hover {
+    background-color: white;
+}
 .corazon {
     position: absolute;
     top: 4px;
@@ -129,7 +132,13 @@ button {
     font-size:36px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);  
 }
-
+a {
+    text-decoration: none;
+    color: white;
+}
+.boton:hover {
+    background-color: #ccc;
+}
 /* esrilos del footer */
 footer {
     display: flex;
